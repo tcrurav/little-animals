@@ -1,0 +1,26 @@
+/* Pantalla de PC de Escritorio: a partir de 992px */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Tablet: más pequeño de 992px */
+/* Debes tener en cuenta los estilos añadidos para PC anteriormente */
+@media screen and (max-width: 992px) {
+    header {
+        background-color: blue;
+    }
+    #central-menu{
+        display: none;
+    }
+}
+
+/* Móvil: más pequeño de 768px */
+/* Debes tener en cuenta los estilos añadidos anteriormente para PC
+ y también los que incluiste para Tablet anteriormente */
+@media screen and (max-width: 768px) {
+    header{
+        background-color: green;
+    }
+}
